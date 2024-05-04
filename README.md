@@ -23,19 +23,21 @@ tecnologias as empresas estão utilizando e uma tabela para cadastro de colabora
 
    
 **2. Quais são os principais campos e seus respectivos tipos?**
-   * Empresa Parceira:
+   * ***Empresa Parceira:***
      * ID (int - Inteiro, chave primária)
      * Nome (varchar - String/Texto de tamanho variável com limite)
      * CNPJ (varchar - String/Texto de tamanho variável com limite, para que caso tenho um 0 a esquerda, não seja ignorado)
      * Endereço (varchar - String/Texto de tamanho variável com limite)
      * Telefone (varchar - String/Texto de tamanho variável com limite, para que caso tenho um 0 a esquerda, não seja ignorado)
+       <br><br>
      
-   * Tecnologia:
+   * ***Tecnologia:***
      * ID (int - Inteiro, chave primária)
      * Nome (varchar - String/Texto de tamanho variável com limite)
      * Área (varchar - String/Texto de tamanho variável com limite)
+       <br><br>
      
-   * Colaborador:
+   * ***Colaborador:***
      * ID (int - Inteiro, chave primária)
      * Nome (varchar - String/Texto de tamanho variável com limite)
      * CPF (varchar - String/Texto de tamanho variável com limite, para que caso tenho um 0 a esquerda, não seja ignorado)
@@ -47,13 +49,13 @@ tecnologias as empresas estão utilizando e uma tabela para cadastro de colabora
 
 
 **3. Como essas entidades estão relacionadas?**
-   * Empresa Parceira - Tecnologia = 1:N <br>
+   * _Empresa Parceira - Tecnologia = 1:N <br>_
      Uma Empresa Parceira pode estar associada a várias Tecnologias, portanto é uma relação de "uma para muitas".
      
-   * Colaborador - Tecnologia = N:N <br>
+   * _Colaborador - Tecnologia = N:N <br>_
      Apesar de um Colaborador só poder estar associado a uma Empresa Parceira, ele pode possuir conhecimento em várias Tecnologias. Esse é um relacionamento de "muitos para muitos", onde múltiplos colaboradores podem ter conhecimento em múltiplas tecnologias.
      
-   * Empresa Parceira - Colaborador = 1:N <br>
+   * _Empresa Parceira - Colaborador = 1:N <br>_
      Um Colaborador pode estar associado a/trabalha para apenas uma Empresa Parceira. Esse é um relacionamento de "uma para muitos", onde uma empresa pode ter vários colaboradores, mas um colaborador está associado a apenas uma empresa.
 <br><br><br>
 
@@ -62,7 +64,7 @@ tecnologias as empresas estão utilizando e uma tabela para cadastro de colabora
 ![image](https://github.com/Larifabrahao/projeto_individual_dados_mod2/assets/113908290/10bed353-0c16-4e05-a134-73de14114e47)
 <br><br><br>
 
-EMPRESA PARCEIRA
+**EMPRESA PARCEIRA**
 
 |         ID     |      Nome      |      CNPJ      |      Endereço      |      Telefone      |
 | :------------------------------: | :----------------: | :----------------: | :----------------: | :----------------: |
@@ -70,7 +72,7 @@ EMPRESA PARCEIRA
 |        02         |    Loudersx TEC LTDA    |    84.912.086/0001-19   |    Rua Sena Madureira, 115, Conjunto Bela Vista, Rio Branco - AC    |      (11) 3735-6936      |
 
 
-<br><br> TECNOLOGIA
+**<br><br> TECNOLOGIA**
 
 |      ID      |      Nome      |      Área      |
 | :--------------------------: | :----------------: | :----------------: |
@@ -78,7 +80,7 @@ EMPRESA PARCEIRA
 |      02       |  MySQL  |  Dados |
 
 
-<br><br> COLABORADOR
+**<br><br> COLABORADOR**
 
 |         ID        |      Nome      |      CPF      |      Cargo      |      Telefone      |      ID_Tecnologia      |      ID_Empresa Parceira      |
 | :------------------------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
