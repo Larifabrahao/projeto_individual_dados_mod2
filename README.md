@@ -58,4 +58,30 @@ tecnologias as empresas estão utilizando e uma tabela para cadastro de colabora
 <br><br><br>
 
 
-**4. Simule 2 registros para cada entidade. <br>**
+**4. Simule 2 registros para cada entidade. <br><br>**
+![image](https://github.com/Larifabrahao/projeto_individual_dados_mod2/assets/113908290/10bed353-0c16-4e05-a134-73de14114e47)
+<br><br><br>
+
+EMPRESA PARCEIRA
+
+|         ID     |      Nome      |      CNPJ      |      Endereço      |      Telefone      |
+| :------------------------------: | :----------------: | :----------------: | :----------------: | :----------------: |
+|        01         |    Tecno AS    |    73.487.130/0001-74   |    Rua Rubens Della Volpe, 475, Cittá Di Firenze, Campinas - SP    |    (19) 3852-0285    |
+|        02         |    Loudersx TEC LTDA    |    84.912.086/0001-19   |    Rua Sena Madureira, 115, Conjunto Bela Vista, Rio Branco - AC    |      (11) 3735-6936      |
+
+
+<br><br> TECNOLOGIA
+
+|      ID      |      Nome      |      Área      |
+| :--------------------------: | :----------------: | :----------------: |
+|      01       |  Python  |  Webdev |
+|      02       |  MySQL  |  Dados |
+
+
+<br><br> COLABORADOR
+
+|         ID        |      Nome      |      CPF      |      Cargo      |      Telefone      |      ID_Tecnologia      |      ID_Empresa Parceira      |
+| :------------------------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: | :----------------: |
+|        01         |    Otávio Enzo Alexandre Gonçalves    |    444.384.272-15   |    Desenvolvedor Júnior    |    (91) 99902-5416    |    02   |    01    |
+|        02         |    Augusto Vitor Yuri Aparício    |    429.178.530-50   |    Desenvolvedor Sênior    |    (82) 98900-6826    |    01   |    02    |
+
