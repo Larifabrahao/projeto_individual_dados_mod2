@@ -66,7 +66,7 @@ tecnologias as empresas estão utilizando e uma tabela para cadastro de colabora
 **4. Simule 2 registros para cada entidade. <br><br>**
 ![image](https://github.com/Larifabrahao/projeto_individual_dados_mod2/assets/113908290/e5d1ad77-507e-4a65-9fc9-173127ecc848)
 
-<br><br><br>
+<br>
 
 **EMPRESA PARCEIRA**
 
