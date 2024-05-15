@@ -1,5 +1,5 @@
 ## **Projeto Individual - Date Analytics**
-_Projeto Individual do Módulo 02 - Programadores Cariocas 2024_
+_Projeto Individual do Módulo 02 - Programadores Cariocas no Mercado Segurador 2024_
 
 <br><br>
 
